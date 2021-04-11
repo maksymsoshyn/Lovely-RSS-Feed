@@ -5,7 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.databinding.DataBindingUtil
 import com.lovelyrssfeed.R
+import com.lovelyrssfeed.databinding.FragmentNewFeedElementBinding
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -35,7 +37,8 @@ class NewFeedElementFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_new_feed_element, container, false)
+        val binding = DataBindingUtil.inflate<FragmentNewFeedElementBinding>(inflater,R.layout.fragment_new_feed_element, container, false)
+        return inflater.inflate(R.layout.fragment_feed, container, false)
     }
 
     companion object {

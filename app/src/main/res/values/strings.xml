@@ -2,4 +2,7 @@
     <string name="app_name">Lovely RSS Feed</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="provide_rss_below_label">Please, provide your RSS page below:</string>
+    <string name="add_button_text">Add</string>
+    <string name="cancel_button_text">Cancel</string>
 </resources>
