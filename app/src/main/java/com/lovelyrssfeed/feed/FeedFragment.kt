@@ -37,7 +37,7 @@ class FeedFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val binding = DataBindingUtil.inflate<FragmentFeedBinding>(inflater,R.layout.fragment_feed, container, false)
-        return inflater.inflate(R.layout.fragment_feed, container, false)
+        return binding.root
     }
 
     companion object {
